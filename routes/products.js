@@ -2,7 +2,7 @@
 const express = require("express");
 const router = express.Router();
 const Product = require("../models/Product");
-const Review = require("../models/review");
+const Review = require("../models/Review");
 
 // Get all products
 router.get("/product-list", async (req, res) => {
