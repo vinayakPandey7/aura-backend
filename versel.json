@@ -1,1 +1,1 @@
-{ "version": 2, "rewrites": [{ "source": "/(.*)", "destination": "/api" }] }
+{ "version": 2, "builds": [{ "src": "./app,js", "use": "@versel/node" }],"routes": [{"src": "/(.*)","dest": "/"}] }
